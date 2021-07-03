@@ -1,0 +1,132 @@
+body {
+  font-family: sans-serif;
+}
+.front-page {
+  width: 500px;
+  height: 900px;
+  margin-bottom: 80px;
+}
+.outer-wrapper {
+  padding: 20px 10px;
+  text-align: center;
+  width: 400px;
+  height: 300px;
+  background-image: linear-gradient(to bottom, orange 70%, white);
+}
+
+.outer-wrapper_afterButton {
+  padding: 20px 10px;
+  text-align: center;
+  width: 400px;
+  height: 100px;
+  background-image: linear-gradient(to bottom, orange 70%, white);
+} 
+.hero-image_afterButton {
+    width: 180px;
+    height: 270px;
+    position: relative;
+    right: 100px;
+}
+
+
+
+.header_afterButton{
+  display: flex;
+  align-items: baseline;
+  flex-wrap: nowrap;
+}
+.movie-name_afterButton {
+    display: block;
+    text-align: left;
+}
+
+.score_afterButton {
+      height: 30px;
+      width: 40px;
+      border-color: orange;
+      border: solid orange 1px;
+      border-radius: 5px;
+      font-size: 20px;
+      color: orange;
+      line-height: 30px;
+      position: relative;
+      right: 60px;
+      bottom: 5px;
+}
+.progressBar_afterButton{
+      position: relative;
+      bottom: 60px;
+    }
+#second {
+      height: 10px;
+      width: 200px;
+} 
+
+.director-title{
+  color: orange
+}
+
+
+
+
+.movie-detail {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+.details {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+}
+
+
+
+.main-block {
+  display: flex;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+.movie-content {
+  width: 400px;
+  height: auto;
+  font-family: PTSerif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+
+}
+#second {
+  height: 10px;
+  width: 200px;
+  margin-top: 40px;
+}
+.break {
+  display: flex;
+  justify-content: center;
+}
+progress {
+  border-radius: 4px;
+  width: 300px;
+  height: 10px;
+  box-shadow: none;
+  padding: 3px;
+}
+progress::-webkit-progress-bar {
+  background-color: lightgray;
+  border-radius: 7px;
+}
+progress::-webkit-progress-value {
+  background-color: orange;
+  border-radius: 7px;
+  box-shadow: none;
+}
+progress::-moz-progress-bar {
+  /* style rules */
+}
+
